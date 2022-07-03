@@ -16,10 +16,15 @@ using System.Windows.Shapes;
 namespace WpfApp4
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Klasa okna dziedzicząca z window, (renderuje okno)
     /// </summary>
+    /// 
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// Inicjalizacja Okna, dodanie danych do DataDridów
+        /// </summary>
+        /// 
         public MainWindow()
         {
             InitializeComponent();
